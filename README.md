@@ -1,3 +1,7 @@
+**NOTE: As of Electron v21 stable (released 9/27/2022) a custom build is no longer needed for this because Chrome was [patched with a similar change](https://chromium-review.googlesource.com/c/chromium/src/+/3383838/) in v106.0.5221.0.**
+
+<hr>
+
 Binaries of Electron using a fork of Chromium that sets the memory usage limit on Windows equal to that on macOS & Linux (16GB) instead of 8GB. Note: 8GB can only be exceeded on Windows if `sandbox` is off in the renderer (or `nodeIntegration` is on which automatically sets `sandbox` off).
 
 Built using **Electron** v21.0.0-nightly.20220801, **Chromium** v105.0.5187.0, **Node** v16.16.0, **v8** v10.5.196-electron.0
